@@ -29,7 +29,7 @@ resource "aws_instance" "terraform_kisujin_ec2" {
   tags = {
     Name = "ec2-an2-app-${var.nickname}"
     CreatedBy = "terraform-ki"
-    Environment = "dev1"
+    Environment = "dev"
   }
 }
 
