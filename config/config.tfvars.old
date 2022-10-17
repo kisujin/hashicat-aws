@@ -1,0 +1,7 @@
+# vpc_cidr            = "10.0.0.0/21"
+# vpc_id              = "vpc-0469926202f01dd39"
+# private_subnet_id   = "subnet-0fd2f9f72c0b9781b"
+# nickname            = ""
+# environment         = "dev"
+# prefix              = "kisujin"
+# region              = "ap-northease-2"
