@@ -1,7 +1,7 @@
 # hashicat-aws
 Hashicat: A terraform built application for use in Hashicorp workshops
 
-Includes "Meow990 World" website.
+Includes "Meow991 World" website.
 
 [![CircleCI](https://circleci.com/gh/hashicorp/hashicat-aws.svg?style=svg)](https://circleci.com/gh/hashicorp/hashicat-aws)
 
