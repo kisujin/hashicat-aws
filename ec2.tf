@@ -12,7 +12,7 @@ data "aws_ami" "amzn2_ami" {
 resource "aws_instance" "terraform_kisujin_ec2" {
 #  count                   = var.environment == "prd" ? 2 : 1
   ami                     = data.aws_ami.amzn2_ami.id
-  instance_type           = "t2.small"
+  instance_type           = "t2.micro"
   vpc_security_group_ids  = [aws_security_group.terraform_kisujin_sg.id]
   subnet_id               = var.private_subnet_id
   disable_api_termination = "false"
